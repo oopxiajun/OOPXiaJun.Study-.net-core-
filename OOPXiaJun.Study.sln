@@ -15,8 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{B563D51F-128
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker 学习", "docker 学习", "{1FF2678B-39B0-4484-8FB7-2EAA1FE1FE34}"
 	ProjectSection(SolutionItems) = preProject
-		E:\docker 学习\命令.txt = E:\docker 学习\命令.txt
-		E:\docker 学习\第一个 docker 应用架构（本地）.txt = E:\docker 学习\第一个 docker 应用架构（本地）.txt
+		D:\docker-conf\docker 学习\命令.txt = D:\docker-conf\docker 学习\命令.txt
+		D:\docker-conf\docker 学习\第一个 docker 应用架构（本地）.txt = D:\docker-conf\docker 学习\第一个 docker 应用架构（本地）.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{BBA4A8AA-B253-4F0F-B91B-CBC690F5533E}"
