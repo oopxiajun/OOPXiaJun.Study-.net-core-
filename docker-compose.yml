@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  oopxiajun.study.myactivemq.webapplication_1:
+    image: ${DOCKER_REGISTRY}oopxiajunstudymyactivemqwebapplication1
+    build:
+      context: .
+      dockerfile: ..\OOPXiaJun.Study.MyActiveMQ\OOPXiaJun.Study.MyActiveMQ.WebApplication_1\Dockerfile
+
+  oopxiajun.study.docker_1:
+    image: ${DOCKER_REGISTRY}oopxiajunstudydocker1
+    build:
+      context: .
+      dockerfile: ../OOPXiaJun.Study.Docker/OOPXiaJun.Study.Docker_1/Dockerfile
+
