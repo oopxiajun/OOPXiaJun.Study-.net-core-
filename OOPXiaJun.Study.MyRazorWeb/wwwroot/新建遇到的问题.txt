@@ -1,0 +1,107 @@
+﻿
+PM> Update-Database
+Both Entity Framework Core and Entity Framework 6 are installed. The Entity Framework Core tools are running. Use 'EntityFramework\Update-Database' for Entity Framework 6.
+Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.2.3-servicing-35854 initialized 'OOPXiaJunStudyMyRazorWebContext' using provider 'MySql.Data.EntityFrameworkCore' with options: None
+Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM information_schema.tables 
+      WHERE table_name = '
+      __EFMigrationsHistory' AND table_schema = DATABASE()
+Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1 FROM information_schema.tables 
+      WHERE table_name = '
+      __EFMigrationsHistory' AND table_schema = DATABASE()
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT `MigrationId`, `ProductVersion`
+      FROM `__EFMigrationsHistory`
+      ORDER BY `MigrationId`;
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'razorweb_db.__efmigrationshistory' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+Failed executing DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'razorweb_db.__efmigrationshistory' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.GetAppliedMigrations()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.Design.Internal.MigrationsOperations.UpdateDatabase(String targetMigration, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabase.<>c__DisplayClass0_1.<.ctor>b__0()
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.Execute(Action action)
+Table 'razorweb_db.__efmigrationshistory' doesn't exist
+PM> 
+
+
+
+
+
+解决办法很简单。先创建这个表。。
+这算是BUG吧。为什么不自动生成呢。
+CREATE TABLE `__EFMigrationsHistory` 
+( 
+    `MigrationId` nvarchar(150) NOT NULL, 
+    `ProductVersion` nvarchar(32) NOT NULL, 
+     PRIMARY KEY (`MigrationId`) 
+);
+
+再次 ：
+PM> Update-Database
+Both Entity Framework Core and Entity Framework 6 are installed. The Entity Framework Core tools are running. Use 'EntityFramework\Update-Database' for Entity Framework 6.
+Build failed.
+
+你大爷的：
+
+重启VS 
+
+PM> Update-Database
+Both Entity Framework 6.x and Entity Framework Core commands are installed. The Entity Framework 6 version is executing. You can fully qualify the command to select which one to execute, 'EntityFramework\Update-Database' for EF6.x and 'EntityFrameworkCore\Update-Database' for EF Core.
+使用“2”个参数调用“SetData”时发生异常:“程序集“Microsoft.VisualStudio.ProjectSystem.VS.Implementation, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的类型“Microsoft.VisualStudio.ProjectSystem.VS.Implementation.Package.Au
+tomation.OAProject”未标记为可序列化。”
+所在位置 C:\Users\Administrator\.nuget\packages\entityframework\6.2.0\tools\EntityFramework.psm1:720 字符: 5
++     $domain.SetData('project', $project)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : SerializationException
+ 
+使用“2”个参数调用“SetData”时发生异常:“程序集“Microsoft.VisualStudio.ProjectSystem.VS.Implementation, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的类型“Microsoft.VisualStudio.ProjectSystem.VS.Implementation.Package.Au
+tomation.OAProject”未标记为可序列化。”
+所在位置 C:\Users\Administrator\.nuget\packages\entityframework\6.2.0\tools\EntityFramework.psm1:721 字符: 5
++     $domain.SetData('contextProject', $contextProject)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : SerializationException
+ 
+使用“2”个参数调用“SetData”时发生异常:“程序集“Microsoft.VisualStudio.ProjectSystem.VS.Implementation, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的类型“Microsoft.VisualStudio.ProjectSystem.VS.Implementation.Package.Au
+tomation.OAProject”未标记为可序列化。”
+所在位置 C:\Users\Administrator\.nuget\packages\entityframework\6.2.0\tools\EntityFramework.psm1:722 字符: 5
++     $domain.SetData('startUpProject', $startUpProject)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : SerializationException
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Data.Entity.Migrations.Extensions.ProjectExtensions.GetPropertyValue[T](Project project, String propertyName)
+   在 System.Data.Entity.Migrations.MigrationsDomainCommand.GetFacade(String configurationTypeName, Boolean useContextWorkingDirectory)
+   在 System.Data.Entity.Migrations.UpdateDatabaseCommand.<>c__DisplayClass2.<.ctor>b__0()
+   在 System.Data.Entity.Migrations.MigrationsDomainCommand.Execute(Action command)
+未将对象引用设置到对象的实例。
+
+
+
+你大爷的，玩我呢！！！！！！草泥马
