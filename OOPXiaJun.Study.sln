@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.SingleWeb.MyConsole", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPXiaJun.LoggerHelper", "..\OOPXiaJun.LoggerHelper\OOPXiaJun.LoggerHelper\OOPXiaJun.LoggerHelper.csproj", "{FE7AC1D6-A059-4877-BD30-3FFBB677E923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.SingleWeb.MyTest", "..\OOP.SingleWeb\OOP.SingleWeb.MyTest\OOP.SingleWeb.MyTest.csproj", "{F2AD3A1E-E14E-424E-A694-D4D1E99EA2E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.SingleWeb.MyTest", "..\OOP.SingleWeb\OOP.SingleWeb.MyTest\OOP.SingleWeb.MyTest.csproj", "{F2AD3A1E-E14E-424E-A694-D4D1E99EA2E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChargingStationDataUpload", "..\ChargingStationDataUpload\ChargingStationDataUpload.csproj", "{F09D496F-16D9-49F1-BFD5-B87A53D34B96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{F2AD3A1E-E14E-424E-A694-D4D1E99EA2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2AD3A1E-E14E-424E-A694-D4D1E99EA2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2AD3A1E-E14E-424E-A694-D4D1E99EA2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09D496F-16D9-49F1-BFD5-B87A53D34B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09D496F-16D9-49F1-BFD5-B87A53D34B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09D496F-16D9-49F1-BFD5-B87A53D34B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09D496F-16D9-49F1-BFD5-B87A53D34B96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

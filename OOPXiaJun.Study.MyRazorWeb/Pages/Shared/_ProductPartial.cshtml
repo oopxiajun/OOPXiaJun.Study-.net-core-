@@ -2,14 +2,12 @@
 
 <div class="form-group">
     <label asp-for="Number"></label>
-    @if ((bool)ViewData["IsNumberReadOnly"])
-    {
+    
+    
         <input asp-for="Number" type="number" class="form-control" readonly />
-    }
-    else
-    {
+    
         <input asp-for="Number" type="number" class="form-control" />
-    }
+     
 </div>
 <div class="form-group">
     <label asp-for="Name"></label>
