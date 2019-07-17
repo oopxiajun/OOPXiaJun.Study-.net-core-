@@ -25,8 +25,6 @@ if (mode && mode != "default") document.write('<link href="' + bootPATH + 'miniu
 document.write('<link href="' + bootPATH + 'miniui/themes/icons.css" rel="stylesheet" type="text/css" />');
 
 
-
-
 ////////////////////////////////////////////////////////////////////////////////////////
 function getCookie(sName) {
     var aCookie = document.cookie.split("; ");
@@ -68,3 +66,52 @@ function __CreateJSPath(js) {
     return path;
 }
 
+function fullScreen() {
+    var fullarea = document.getElementById('container') || document.documentElement;
+
+
+    if (fullarea.requestFullscreen) {
+        fullarea.requestFullscreen();
+    } else if (fullarea.webkitRequestFullScreen) {
+        fullarea.webkitRequestFullScreen();
+    } else if (fullarea.mozRequestFullScreen) {
+        fullarea.mozRequestFullScreen();
+    } else if (fullarea.msRequestFullscreen) {
+        // IE11
+        fullarea.msRequestFullscreen();
+    } else if (typeof window.ActiveXObject != "undefined") {
+
+        //for IE，这里其实就是模拟了按下键盘的F11，使浏览器全屏
+
+        var wscript = new ActiveXObject("WScript.Shell");
+
+        if (wscript != null) {
+
+            wscript.SendKeys("{F11}");
+
+        }
+
+    }
+}
+
+function exitFullScreen() {
+
+    if (document.exitFullscreen) {
+        document.exitFullscreen();
+    } else if (document.webkitCancelFullScreen) {
+        document.webkitCancelFullScreen();
+    } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+    } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+    } else if (typeof window.ActiveXObject != "undefined") {
+
+        //for IE，这里和fullScreen相同，模拟按下F11键退出全屏
+
+        var wscript = new ActiveXObject("WScript.Shell");
+
+        if (wscript != null) {
+            wscript.SendKeys("{F11}");
+        }
+    }
+}

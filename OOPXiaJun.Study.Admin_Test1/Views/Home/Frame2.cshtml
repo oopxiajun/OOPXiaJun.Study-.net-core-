@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>框架2</title>
-    <script src="../js/boot.js"></script>
+    <script src="../js/boot.js?112container"></script>
     <link href="../frame2/res/menu/menu.css" rel="stylesheet" type="text/css" />
     <script src="../frame2/res/menu/menu.js" type="text/javascript"></script>
     <link href="../frame2/res/tabs.css" rel="stylesheet" type="text/css" />
@@ -45,7 +45,7 @@
         </ul>
     </div>
 
-    <div class="container">
+    <div class="container" id="container">
         <div id="mainTabs" class="mini-tabs" activeIndex="0" style="height:100%;" plain="false"
              buttons="#tabsButtons" arrowPosition="side">
             <div name="index" iconCls="fa-android" title="控制台">
@@ -55,8 +55,8 @@
         <div id="tabsButtons">
             <a class="tabsBtn"><i class="fa fa-home"></i></a>
             <a class="tabsBtn"><i class="fa fa-refresh"></i></a>
-            <a class="tabsBtn"><i class="fa fa-remove"></i></a>
-            <a class="tabsBtn"><i class="fa fa-arrows-alt"></i></a>
+            <a class="tabsBtn" id="outFullScreen" style="display:none;"><i class="fa fa-remove"></i></a>
+            <a class="tabsBtn" id="fullScreen"><i class="fa fa-arrows-alt"></i></a>
         </div>
     </div>
 
@@ -102,6 +102,17 @@
 
         $(document).click(function (event) {
             $(".dropdown").removeClass("open");
+        });
+
+        $("#fullScreen").click(function () {
+            $("#outFullScreen").show();
+            $(this).hide();
+            fullScreen('container');
+        });
+        $("#outFullScreen").click(function () {            
+            exitFullScreen('container');
+            $("#fullScreen").show();
+            $(this).hide();
         });
     });
     
