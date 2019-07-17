@@ -17,6 +17,18 @@ namespace OOPXiaJun.Study.Admin_Test1.Controllers
         {
             return View();
         }
+        public IActionResult Frame1()
+        {
+            return View();
+        }
+        public IActionResult Frame2()
+        {
+            return View();
+        }
+        public IActionResult Frame3()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
@@ -24,7 +36,7 @@ namespace OOPXiaJun.Study.Admin_Test1.Controllers
         }
         public IActionResult Welcome()
         {
-             
+
             return View();
         }
 

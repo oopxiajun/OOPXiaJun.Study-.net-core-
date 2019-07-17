@@ -735,6 +735,16 @@
     <Folder Include="wwwroot\js\miniui\themes\gray\images\tabs\" />
     <Folder Include="wwwroot\js\miniui\themes\gray\images\treegrid\" />
     <Folder Include="wwwroot\js\miniui\themes\pure\images\button\" />
+    <Folder Include="wwwroot\frame2\src\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="wwwroot\frame1\res\menutip.js" />
+    <None Include="wwwroot\frame1\res\menu\menu.js" />
+    <None Include="wwwroot\frame2\res\menu\menu.js" />
+    <None Include="wwwroot\frame3\res\menupop.js" />
+    <None Include="wwwroot\frame3\res\menu\menu.js" />
   </ItemGroup>
 
 
