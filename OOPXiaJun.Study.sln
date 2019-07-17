@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.202
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPXiaJun.Study.AsyncAwait", "OOPXiaJun.Study.AsyncAwait\OOPXiaJun.Study.AsyncAwait.csproj", "{917BEACB-1BCF-4430-8855-2D19DDAE83DD}"
 EndProject
@@ -18,8 +18,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker 学习", "docker 学
 		D:\docker-conf\docker 学习\命令.txt = D:\docker-conf\docker 学习\命令.txt
 		D:\docker-conf\docker 学习\第一个 docker 应用架构（本地）.txt = D:\docker-conf\docker 学习\第一个 docker 应用架构（本地）.txt
 	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{BBA4A8AA-B253-4F0F-B91B-CBC690F5533E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPXiaJun.Study.MyActiveMQ.Customer_1", "OOPXiaJun.Study.MyActiveMQ\OOPXiaJun.Study.MyActiveMQ.Customer_1\OOPXiaJun.Study.MyActiveMQ.Customer_1.csproj", "{DAFB5F3C-9AD8-4148-A82B-40B97C18DB26}"
 EndProject

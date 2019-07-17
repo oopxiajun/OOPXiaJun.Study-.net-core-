@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BusinessRule.cs~RF13dd4bf0.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IBatisNet.Core" Version="1.6.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OOP.SingleWeb.Domain\OOP.SingleWeb.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
