@@ -1,0 +1,595 @@
+﻿<ul class="hidden-xs">
+                                                         
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L10">
+                                                                        L10</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C3L1 Fruit">
+                                                                        K1 C3L1 Fruit</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190702/ab4508aa-8f3e-4bca-a7a0-96230809df11.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <i class="glyphicon glyphicon-ok tooltips" title="" data-original-title="完成"></i>
+                                                                        <a href="javascript:;" data-toggle="modal" data-target="#ReStudyModal" class="ReSetSub tooltips" data-uid="3159868" data-ucid="3619328" data-sid="124824" title="" data-original-title="重修该课件"><i class="fa fa-repeat"></i></a>
+                                                                        
+                                                                        <a href="javascript:;" data-ucid="3619328" data-sid="124824" data-title="K1 C3L1 Fruit" class="text-info open-class-Meno"><i class="glyphicon glyphicon-search tooltips" title="" data-original-title="上课评价"></i></a>
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+                                                                                <a href="javascript:;" class="tooltips iu_ctn tool_new_yuxi" data-sid="124824" data-clid="30951778" data-uid="3159868" data-original-title="" title=""><i class="glyphicon glyphicon-book"></i>已预习</a>
+                                                                            
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                                        <a href="javascript:;" class="tooltips iu_ctn tool_new_fuxi" data-sid="124824" data-clid="30951778" data-uid="3159868" data-original-title="" title=""><i class="glyphicon glyphicon-book"></i>课后复习</a>
+                                                                                 
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_dq">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L11">
+                                                                        L11<i class="glyphicon glyphicon-flag float-right margin5" title="当前课件"></i></li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C3L2 I like apples.">
+                                                                        K1 C3L2 I like apples.</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190802/b9e94015-0212-4591-bb62-0e29ceb5ae18.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <i class="fa fa-pencil edit-notes tooltips" title="" data-original-title="当前课件"></i>
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+                                                                                <a href="javascript:;" class="tooltips iu_ctn tool_new_yuxi" data-sid="124825" data-clid="0" data-uid="3159868" data-original-title="" title=""><i class="glyphicon glyphicon-book"></i>课前预习</a>
+                                                                            
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L12">
+                                                                        L12</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C3L3 Revision 3">
+                                                                        K1 C3L3 Revision 3</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190704/f717a3e2-1f6d-4867-874c-de324f05c813.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="124830" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L13">
+                                                                        L13</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C3L4 Activity 3">
+                                                                        K1 C3L4 Activity 3</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190717/1c920927-df63-4ed3-b131-50642c7d14b6.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="124853" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L14">
+                                                                        L14</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C4L1 Letters C&amp;D">
+                                                                        K1 C4L1 Letters C&amp;D</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190828/f3b03923-9e4d-4eb8-ad04-aa8586bf0d55.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="126890" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+                                                                                <a href="javascript:;" class="tooltips iu_ctn tool_new_yuxi" data-sid="126890" data-clid="0" data-uid="3159868" data-original-title="" title=""><i class="glyphicon glyphicon-book"></i>课前预习</a>
+                                                                            
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L15">
+                                                                        L15</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C4L1 Animals">
+                                                                        K1 C4L1 Animals</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190704/b9219efb-dcba-4a78-a364-3662679e9b31.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="124928" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+                                                                                <a href="javascript:;" class="tooltips iu_ctn tool_new_yuxi" data-sid="124928" data-clid="0" data-uid="3159868" data-original-title="" title=""><i class="glyphicon glyphicon-book"></i>课前预习</a>
+                                                                            
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L16">
+                                                                        L16</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C4L2 It‘s a cat.">
+                                                                        K1 C4L2 It‘s a cat.</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190704/4feb33f0-9057-416e-b059-50e595c2f29a.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="124929" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+                                                                                <a href="javascript:;" class="tooltips iu_ctn tool_new_yuxi" data-sid="124929" data-clid="0" data-uid="3159868" data-original-title="" title=""><i class="glyphicon glyphicon-book"></i>课前预习</a>
+                                                                            
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L17">
+                                                                        L17</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C4L3 Revision 4">
+                                                                        K1 C4L3 Revision 4</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190705/d4440e9c-9e0c-49fc-9127-c98068320294.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="124955" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L18">
+                                                                        L18</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C4L4 Activity 4">
+                                                                        K1 C4L4 Activity 4</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190718/959f8d5a-3081-43ca-96eb-4d38d2eab212.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="125398" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L19">
+                                                                        L19</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C5L1 Letters E&amp;F">
+                                                                        K1 C5L1 Letters E&amp;F</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190828/3c4f7dca-3bfb-4259-9011-b39154079358.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="126891" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+                                                                                <a href="javascript:;" class="tooltips iu_ctn tool_new_yuxi" data-sid="126891" data-clid="0" data-uid="3159868" data-original-title="" title=""><i class="glyphicon glyphicon-book"></i>课前预习</a>
+                                                                            
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L20">
+                                                                        L20</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C5L1 My Head">
+                                                                        K1 C5L1 My Head</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190719/14fb7a25-f945-46f5-91c5-e4174f57ca37.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="125464" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+                                                                                <a href="javascript:;" class="tooltips iu_ctn tool_new_yuxi" data-sid="125464" data-clid="0" data-uid="3159868" data-original-title="" title=""><i class="glyphicon glyphicon-book"></i>课前预习</a>
+                                                                            
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L21">
+                                                                        L21</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C5L2 Touch your eyes.">
+                                                                        K1 C5L2 Touch your eyes.</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190719/4ef29499-ed3e-454c-9325-d2cd706f2974.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="125465" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+                                                                                <a href="javascript:;" class="tooltips iu_ctn tool_new_yuxi" data-sid="125465" data-clid="0" data-uid="3159868" data-original-title="" title=""><i class="glyphicon glyphicon-book"></i>课前预习</a>
+                                                                            
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L22">
+                                                                        L22</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C5L3 Revision 5">
+                                                                        K1 C5L3 Revision 5</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190719/a89c36cc-9cc4-4cba-8b4c-0ec74fc7b97a.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="125486" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L23">
+                                                                        L23</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C5L4 Activity 5">
+                                                                        K1 C5L4 Activity 5</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190725/0f3e31ff-a08f-485b-b520-c2ab8a2d237e.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="125679" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                        <li class="cor-sm-2 cor-md-2 cor-lg-2 danqianjc">
+                                                            <div class="col-sm-12 col-md-12 col-lg-12 no-padding boodiv zt_wwc">
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt1">
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 no-padding age tooltips" title="" data-original-title="L24">
+                                                                        L24</li>
+                                                                    <li class="cor-sm-10 cor-md-10 cor-lg-10 ovestr tooltips" title="" data-original-title="K1 C6L1 Letters G&amp;H">
+                                                                        K1 C6L1 Letters G&amp;H</li>
+                                                                </ul>
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt2">
+                                                                    
+                                                                    <li class="cor-sm-4 cor-md-3 cor-lg-3 no-padding age tooltips" title="" data-original-title="查看教材"><a class="text-success fa fa-book font-18" target="_blank" href="/Curriculum/20190828/9660cb79-9d84-49af-80ed-b856ef495683.pdf"></a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="cor-sm-6 cor-md-7 cor-lg-7 CurrenLuk">
+                                                                        
+                                                                        <a href="javascript:;" onclick="Modal_Fun.init('您确定要设置该课件为当前课件吗？', 2);$('#Modal_Fun_room').on('hidden.bs.modal', function () {if ($('#Modal_Fun_room').attr('data-action') == 'true') {$('.Set_Subject').click();};})" class="text-info SetSubject tooltips" data-uid="3159868" data-ucid="3619328" data-sid="126892" title="" data-original-title="设置为当前课件">设置</a>
+                                                                        
+                                                                        
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                                <ul class="col-sm-12 col-md-12 col-lg-12 no-padding zt3">
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding border-right">
+                                                                        
+                                                                        
+                                                                                <a href="javascript:;" class="tooltips iu_ctn tool_new_yuxi" data-sid="126892" data-clid="0" data-uid="3159868" data-original-title="" title=""><i class="glyphicon glyphicon-book"></i>课前预习</a>
+                                                                            
+
+                                                                    </li>
+                                                                    <li class="cor-sm-5 cor-md-5 col-lg-6 no-padding">
+                                                                      
+
+                                                                          
+                                                                    </li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            
+                                                        </li>
+                                                        
+                                                    </ul>

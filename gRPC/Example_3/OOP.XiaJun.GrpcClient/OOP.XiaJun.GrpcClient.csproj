@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>3d36c768-5625-41ee-8068-2af3670d584f</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Protobuf Include="..\Protos\*.proto" GrpcServices="Client" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.10.0" />
+    <PackageReference Include="Google.Protobuf.Tools" Version="3.10.0" />
+    <PackageReference Include="Grpc.Core" Version="2.24.0" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.23.2" />
+    <PackageReference Include="Grpc.Tools" Version="2.24.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.5" />
+  </ItemGroup>
+
+</Project>

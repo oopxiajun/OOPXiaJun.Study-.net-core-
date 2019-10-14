@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+//名称空间
+option csharp_namespace = "OOP.XiaJun.GrpcServer";
+//产品
+package product;
+
+//根据产品pid获取产品详细信息
+service  ProductServer{
+	rpc GetProductByPid (ProductPid) returns ( ProductModel);
+}
+message ProductPid{
+	string Pid=1;
+}
+
+
+message ProductModel{
+	string Pid = 1;
+	string Name = 2;
+	double Price = 3;
+}
