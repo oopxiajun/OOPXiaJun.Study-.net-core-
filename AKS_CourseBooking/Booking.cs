@@ -11,13 +11,54 @@ namespace AKS_CourseBooking
         string uid = "3159868";
         string txtPath = "";
 
-        List<DateTime> SuccessDay;
+        Dictionary<DateTime,DateTime> SuccessDay;
+
+        List<Teacher> teachers = new List<Teacher>() {
+                new Teacher("3146","Grazzy"),
+                new Teacher("62601","Nadia.A"),
+                new Teacher("49232","Aldwin"),
+                new Teacher("37211","Merile.S")
+            };
+
+        List<string> time = new List<string>() {
+                "19:00",
+                "19:30",
+                "20:00",
+                "20:30",
+                "18:30",
+                "21:00",
+                "21:30"
+            };
 
         public Booking()
         {
             txtPath = uid + "_" + coid + ".txt";
-            SuccessDay = new List<DateTime>();
+            SuccessDay = new Dictionary<DateTime, DateTime>();
             LoadSuccessDayFromTxt();
+        }
+
+        public void ThreadSpecial() {
+            System.Threading.Thread thread = new System.Threading.Thread(delegate ()
+            {
+                int i = 0;
+                while (true)
+                {
+                    Console.WriteLine(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")+teachers[0].Name + ":" + (++i) + "次");
+                    try
+                    {
+                        PriorityTteacher(teachers[0]);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex);
+                    }
+                    System.Threading.Thread.Sleep(5 * 1000);
+                }
+            });
+            thread.Priority = System.Threading.ThreadPriority.Highest;
+            thread.Start();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("特定老师约课线程已启动;");
         }
 
         public void Exect()
@@ -29,58 +70,64 @@ namespace AKS_CourseBooking
             4:循环上面3步
              */
 
-            List<Teacher> teachers = new List<Teacher>() {
-                new Teacher("3146","Grazzy"),
-                new Teacher("62601","Nadia.A"),
-                new Teacher("49232","Aldwin"),
-                new Teacher("37211","Merile.S")
-            };
-
-            List<string> time = new List<string>() {
-                "19:00",
-                "19:30",
-                "20:00",
-                "20:30",
-                "18:30",
-                "21:00",
-                "21:30"
-            };
-
-            foreach (DateTime item in GetFailDay())
+            System.Threading.Thread thread = new System.Threading.Thread(delegate ()
             {
-                bool todayStatus = false;
-
-                foreach (var teacher in teachers)
+                int times = 0;
+                while (true)
                 {
-                    foreach (var tt in time)
+                    try
                     {
-                        string mm = item.ToString("yyyy-MM-dd") + " " + tt;
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine(teacher.Name + ":" + mm+"  约课");
-                        Console.ResetColor();
-                        CBResponse response = AKSHttpHelper.Request(teacher.TUID, coid, uid, mm);
-                        if (response != null && response.value != null && response.value.result)
+                        times++;
+                        Console.WriteLine(DateTime.Now.ToString() + "第" + times + "次运行");
+
+                        foreach (DateTime item in GetFailDay())
                         {
-                            //成功后，记录时间
-                            todayStatus = true;
+                            bool todayStatus = false;
 
-
-                            Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine(teacher.Name + ":" + mm + "\n" + Newtonsoft.Json.JsonConvert.SerializeObject(response) + "\n" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-                            Console.ResetColor();
-
-                            WriteSuccessDayToTxt(item);
-
-                            break;
+                            foreach (var teacher in teachers)
+                            {
+                                foreach (var tt in time)
+                                {
+                                    todayStatus = AppointClass(teacher, item, tt);
+                                    if (todayStatus) break;
+                                }
+                                if (todayStatus)
+                                {
+                                    break;
+                                }
+                            }
                         }
                     }
-                    if (todayStatus)
+                    catch (Exception ex)
                     {
-                        break;
+                        Console.WriteLine(ex);
                     }
+                    System.Threading.Thread.Sleep(15 * 1000);
                 }
+            });
+            thread.Priority = System.Threading.ThreadPriority.Highest;
+            thread.Start();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("统一约课线程已启动;");
+        }
+
+        public bool AppointClass(Teacher teacher, DateTime day, string time)
+        {
+            string mm = day.ToString("yyyy-MM-dd") + " " + time;
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(teacher.Name + ":" + mm + "  约课");
+            Console.ResetColor();
+            CBResponse<CBResponse_Value> response = AKSHttpHelper.AppointClass(teacher.TUID, coid, uid, mm);
+            if (response != null && response.value != null && response.value.result)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine(teacher.Name + ":" + mm + "\n" + Newtonsoft.Json.JsonConvert.SerializeObject(response) + "\n" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                Console.ResetColor();
+
+                WriteSuccessDayToTxt(day);
+                return true;
             }
-            SaveSuccessToTxt();
+            return false;
         }
 
         private void LoadSuccessDayFromTxt()
@@ -99,17 +146,25 @@ namespace AKS_CourseBooking
             foreach (var item in strDay)
             {
                 if (string.IsNullOrWhiteSpace(item)) continue;
-                SuccessDay.Add(DateTime.Parse(item));
+              string [] day
+                    =  item.Split(":");
+
+                SuccessDay.Add(DateTime.Parse(day[0]), DateTime.Parse(day[1]));
             }
         }
 
         private void WriteSuccessDayToTxt(DateTime day)
         {
-            int count = SuccessDay.Count(d => d.Date.Equals(d.Date.Date));
-            if (count == 0)
+
+            SuccessDay.Add(day,DateTime.Now);
+            string txt = "";
+
+            foreach (var item in SuccessDay)
             {
-                SuccessDay.Add(day);
+                txt += "\n" + item.Key.ToString("yyyy-MM-dd")+":"+item.Value.ToString("yyyy-MM-dd HH:mm:ss");
             }
+
+            System.IO.File.WriteAllText(txtPath, txt);
         }
 
         private List<DateTime> GetFailDay()
@@ -117,12 +172,12 @@ namespace AKS_CourseBooking
             List<DateTime> falseDay = new List<DateTime>();
 
             DateTime begin = DateTime.Now;
-
+            if(begin.Hour>17) begin = begin.AddDays(1);
 
             while (begin < DateTime.Now.AddDays(14))
             {
                 //未在成功之列
-                if (SuccessDay.Count(d => d.Date.Equals(begin.Date)) == 0)
+                if (SuccessDay.Count(d => d.Key.Date.Equals(begin.Date)) == 0)
                 {
                     falseDay.Add(DateTime.Parse(begin.ToString("yyyy-MM-dd")));
                 }
@@ -132,25 +187,31 @@ namespace AKS_CourseBooking
             return falseDay;
         }
 
-        private void SaveSuccessToTxt()
+
+
+
+        public void PriorityTteacher(Teacher teacher)
         {
-            var temp = SuccessDay.Where(s => s.Date >= DateTime.Now.Date).ToList();
-            string txt = "";
-
-            foreach (DateTime item in temp)
+            foreach (DateTime day in GetFailDay())
             {
-                txt += "\n" + item.ToString("yyyy-MM-dd");
+                Console.WriteLine(teacher.Name + ":" + day.ToString("yyyy-MM-dd"));
+                CBResponse<Dictionary<DateTime, dynamic>> dictionary = AKSHttpHelper.GetTargetTimeAvaDuration(teacher.TUID, day.ToString("yyyy-MM-dd"), coid);
+                if (dictionary != null && dictionary.value != null && dictionary.value.Count > 0)
+                {
+                    foreach (dynamic item in dictionary.value.Values)
+                    {
+                        int count = time.Where(s => s.Contains((string)item.hour)).Count();
+                        if (count > 0)
+                        {
+                            bool b = AppointClass(teacher, day, (string)item.hour);
+                            if (b)
+                            {
+                                break;
+                            }
+                        }
+                    }
+                }
             }
-
-            //if (!System.IO.File.Exists(txtPath))
-            //{
-            //    using (System.IO.FileStream s = System.IO.File.Create(txtPath))
-            //    {
-            //        s.Close();
-            //    }
-            //}
-            System.IO.File.AppendAllText(txtPath, txt);
         }
-
     }
 }
